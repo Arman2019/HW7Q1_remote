@@ -3,8 +3,12 @@ public class DemoTurners {
         Leaf leaf = new Leaf();
         Page page = new Page();
         Pancake pancake = new Pancake();
+        Key key = new Key();
+        SteeringWheel steeringWheel = new SteeringWheel();
         leaf.turn();
         page.turn();
         pancake.turn();
+        key.turn();
+        steeringWheel.turn();
     }
 }
